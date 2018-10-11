@@ -1,0 +1,33 @@
+{
+    "manifest_version": 1,
+    "version": 1,
+    "type": "APP",
+    "name": {
+        "ja": "テンプレートプラグイン",
+        "en": "template plugin",
+        "zh": "template plugin"
+    },
+    "description": {
+        "ja": "テンプレートプラグインです。",
+        "en": "This is a template plugin.",
+        "zh": "This is a template plugin."
+    },
+    "icon": "contents/icon.png",
+    "desktop": {
+        "js": [
+            "https://js.cybozu.com/jquery/1.11.1/jquery.min.js",
+            "desktops/desktop.js"
+        ]
+    },
+    "config":{
+        "html": "contents/setting.html",
+        "js": [
+            "https://js.cybozu.com/jquery/1.11.1/jquery.min.js",
+            "config_js/config.js"
+        ],
+        "css": [
+                "config_css/51-modern-default.css",
+        ],
+         "required_params": []
+    }
+}
